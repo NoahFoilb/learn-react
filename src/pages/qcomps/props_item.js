@@ -1,6 +1,6 @@
 function Item({ name, isPacked }) {
   if (isPacked) {
-    return <li className="item">{name} ✔</li>;
+    return <del><li className="item">{name} </li></del>;
   }
   return <li className="item"> {name} </li>
 }
