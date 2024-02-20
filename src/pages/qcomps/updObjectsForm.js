@@ -14,6 +14,7 @@ export default function Scoreboard() {
   function handleFirstNameChange(e) {
     setPlayer({
       ...player,
+      likescore: player.likescore,
       firstName: e.target.value,
     });
   }
